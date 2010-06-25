@@ -14,18 +14,22 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 b4f810a2b5671774a43223b2e5b0e42698af9288 Build.PL
-SHA1 abcfc8abd430981ef7aeb10ac745602150d39052 Changes
-SHA1 310b43be366758b7ee373ab05e8d35733c3d4651 MANIFEST
-SHA1 970ff86066acbb9235550a565a2da1e6e710905d META.yml
-SHA1 5016eb6277162300300e8db3c35d354260bc3793 README
-SHA1 f697e31badda3d29dfe13ee8fc8414faf1f93250 lib/Test/Dirs.pm
+SHA1 892da00e5c4451637d72eeacd056d8c08e38a3df Build.PL
+SHA1 d66b79496e09345709bb3eadc6046b3678ba316d Changes
+SHA1 dba229d7aadb4cce1634e57f83c769d06ceadff5 MANIFEST
+SHA1 55e70f6cbc209734b43b6efed9a3720fd566ab78 META.yml
+SHA1 2384568ebd15e1a584b11bbb15a786142dd04940 README
+SHA1 6d76c080eb288983502d1d24dd361b8cfc566707 lib/Test/Dirs.pm
 SHA1 50ea0d2ef6e0da9c63e352810fc0d830cb41aee5 t/01_Test-Dirs.t
+SHA1 c80ff83ea0f9ba2f7ca2b5959acd1268a027773c t/02_Test-Dirs-dir_cleanup_ok.t
 SHA1 7cefd67cd97c9375d886bb0efb0f410a3e288f1a t/99_Synopsis.t
 SHA1 10c564e5ffe84748070827b350edbf3d6b832b20 t/fixme.t
 SHA1 0b1c5a2d59be6bfa7d60c64cd964fea6a0331705 t/pod-coverage.t
-SHA1 c8547841d80c10c57a8c74e6c88fd1438b199933 t/pod-spell.t
+SHA1 c2f44dfbcff98de75a714580414b3fa2741e2293 t/pod-spell.t
 SHA1 640935336dc1123c0069bcf5432bcaedc2cf22d3 t/pod.t
+SHA1 da39a3ee5e6b4b0d3255bfef95601890afd80709 t/tdirs/res3.1/exists
+SHA1 da39a3ee5e6b4b0d3255bfef95601890afd80709 t/tdirs/res3.1/f1/f2x/.exists
+SHA1 da39a3ee5e6b4b0d3255bfef95601890afd80709 t/tdirs/res3.2/exists
 SHA1 da39a3ee5e6b4b0d3255bfef95601890afd80709 t/tdirs/src1/123
 SHA1 3fa14bb2d05d5af824b677e60e93d9a5612d0569 t/tdirs/src1/abc/zyx
 SHA1 35910290c4a2eaf0dad99941f2c595a1baeacf8d t/tdirs/src1/cba
@@ -34,10 +38,13 @@ SHA1 da39a3ee5e6b4b0d3255bfef95601890afd80709 t/tdirs/src2/abc/999
 SHA1 9e12457bc1fab47c012efa76ce12d362b633df36 t/tdirs/src2/abc/zyx
 SHA1 da39a3ee5e6b4b0d3255bfef95601890afd80709 t/tdirs/src2/cba/123
 SHA1 9280b62cc46f48aac2538479f50272e63784533c t/tdirs/src2/xxx
+SHA1 da39a3ee5e6b4b0d3255bfef95601890afd80709 t/tdirs/src3/exists
+SHA1 da39a3ee5e6b4b0d3255bfef95601890afd80709 t/tdirs/src3/f1/f2/some-file
+SHA1 da39a3ee5e6b4b0d3255bfef95601890afd80709 t/tdirs/src3/f1/f2x/.exists
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.10 (GNU/Linux)
 
-iEYEARECAAYFAkwjk2gACgkQC0OgUPgL2Sdm+wCeP67K4lXq+mDy2q6jvLTANenf
-KbwAn2lCaUel2PjwWTcz0YtvrhCCy2Kw
-=TKkX
+iEYEARECAAYFAkwk2F0ACgkQC0OgUPgL2SfqnwCbB1A+gWrs3vZz1rXrlBYUAJkL
+jb0AoIsz8HkFvXZeS3af+ZC/SUEvlOYQ
+=s91u
 -----END PGP SIGNATURE-----
